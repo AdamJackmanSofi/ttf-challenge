@@ -1,0 +1,25 @@
+= Config Resources
+ Giphy Search Service;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+[[search]]
+== Giphy
+
+=== Search  `GET`
+Searches Giphy API with search terms
+
+include::{snippets}/search/curl-request.adoc[]
+
+==== Request
+
+include::{snippets}/search/http-request.adoc[]
+
+==== Response
+
+include::{snippets}/search/http-response.adoc[]
+

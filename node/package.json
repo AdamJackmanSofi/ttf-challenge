@@ -1,0 +1,24 @@
+{
+  "name": "backend-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh ./scripts/test.sh",
+    "start": "sh start.sh"
+  },
+  "author": "Randall Ho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1",
+    "nconf": "^0.8.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.0.1",
+    "supertest": "^3.0.0",
+    "tape": "^4.8.0"
+  }
+}
